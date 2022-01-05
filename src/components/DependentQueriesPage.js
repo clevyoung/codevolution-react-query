@@ -2,6 +2,8 @@ import axios from 'axios';
 import React from 'react';
 import { useQuery } from 'react-query';
 
+// 참조 : https://react-query.tanstack.com/guides/dependent-queries
+
 const fetchUserByEmail = (email) => {
   return axios.get(`https://localhost:4000/user/${email}`);
 };

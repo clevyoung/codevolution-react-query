@@ -2,6 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import { useQuery } from 'react-query';
 
+// 참고 : https://react-query.tanstack.com/guides/parallel-queries
+
 const fetchSuperHeroes = () => {
   return axios.get('https://localhost:4000/superheroes');
 };
