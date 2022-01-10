@@ -27,8 +27,6 @@ const RQSuperHeroesPage = () => {
    * to achieve that behavior we configure another property staletime
    */
 
-  console.log({ isLoading, isFetching });
-
   /**
    * The first time useQuery is fired for superheroes key isLoading is set to true and a network request is sent to fetch the data
    * when the request is completed it is cached using the query key and the fetchSuperheroes function as the unique identifiers

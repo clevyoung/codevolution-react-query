@@ -16,7 +16,7 @@ const DynamicParallelQueriesPage = ({ heroIds }) => {
       };
     })
   );
-  console.log({ queryResults });
+
   return <div></div>;
 };
 
